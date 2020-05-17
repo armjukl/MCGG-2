@@ -558,6 +558,9 @@ log: ".$_POST['dir']."/ngrok.log \n
 	} else if ($_POST['version'] == 'BC') {
 		copy('serverbase/BungeeCord.jar',$_POST['dir'].'/BungeeCord.jar');
 	}
+	else if ($_POST['version'] == '1.15.2') {
+		copy('serverbase/server.jar',$_POST['dir'].'/server.jar');
+	}
 		
 }
 
